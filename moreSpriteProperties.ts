@@ -16,7 +16,7 @@ interface Sprite {
     clone(): Sprite
     
     //% helper=spriteFill 
-    //% blockId="sprite_fill" block="fill %c=colorWheelPicker"
+    //% blockId="sprite_fill" block="$this(mySprite) fill %c=colorWheelPicker"
     //% group="Image"
     /**
      * Fills the sprite with a specific color
