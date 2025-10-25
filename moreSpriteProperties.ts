@@ -39,7 +39,7 @@ interface Sprite {
    
     //% helper=spriteOverlapsWithColorSprite
     //% blockId="sprite_overlaps_with_color_sprite"
-    //% block="$this(mySprite) overlaps with %other=variables_get(otherSprite) and color equals to that other sprite is sprite overlapping %c"
+    //% block="$this(mySprite) overlaps with %other=variables_get(otherSprite) and color equals %c"
     //% help=docs/overlapsWithColorSprite
     //% group="Overlaps"
     /**
@@ -49,7 +49,7 @@ interface Sprite {
     overlapsWithColorSprite(other: Sprite, c: number): boolean
     //% helper=spriteColorOverlapsWithColorSprite
     //% blockId="sprite_with_color_overlaps_with_otherSprite_with_color"
-    //% block="sprite with color overlaps with other sprite with color $this(mySprite) %other=variables_get(otherSprite) %c=colorWheelPicker %c0=colorWheelPicker"
+    //% block="sprite overlaps with $this(mySprite) %other=variables_get(otherSprite) and color for sprite%c=colorWheelPicker and for other sprite with color%c0=colorWheelPicker"
     //% group="Overlaps"
 /**
  * Checks whether two sprites overlap at any pixel where
